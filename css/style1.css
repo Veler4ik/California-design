@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Readex+Pro&display=swap');
+
+body {
+    padding: 15px 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.logo {
+    margin-left: 65px;
+}
+
+.output {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+#products {
+    text-decoration: none;
+    outline: none;
+    font-size: large;
+    color: black;
+    font-weight: lighter;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+#products:hover {
+    background-size: 100% 2px;
+}
+
+.trash {
+    display: flex;
+    justify-content: end;
+    gap:20px;
+    margin-right: 65px;
+}
+
+.font {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 32px;
+    background: #DCE5E2;
+    width: 1900px;
+    height: 620px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+.under-font  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 7px;
+}
+
+#info {
+    color: #000;
+    font-family: Readex Pro;
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 90px;
+    width: 588px;
+    margin-top: -10px;
+}
+
+#lorem {
+    color: #000;
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 27px;
+    width: 565px;
+}
+
+#explore{
+    width: 170px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 200px;
+    border: 1px solid #000;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.shop h1 {
+    font-size: 48px;
+    color: #000;
+    font-family: Readex Pro;
+}
+
+.shop span {
+    color: #000;
+    text-align: center;
+    font-family: Readex Pro;
+    font-size: 20px;
+    width: 900px;
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    gap: 50px;
+}
+
+.vertical {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.laptop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-box-shadow: 10px 10px 25px 0px rgb(219, 219, 219);
+    -moz-box-shadow: 10px 10px 25px 0px rgb(219, 219, 219);
+    box-shadow: 10px 10px 25px 0px rgb(219, 219, 219);
+}
+
+.laptop span {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    right: -225px;
+    margin-top: -15px;
+    margin-bottom: -25px;
+}  
+
+.laptop img {
+    width: 500px;
+    height: 377px;
+    padding: 10px 100px;
+}
+
+.laptop h3 {
+    font-weight: 400;   
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    text-align: right;
+    margin-bottom: -20px;
+}
+
+.laptop p {
+    text-align: right;
+    font-family: Readex Pro;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.watch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 10px 10px 25px 0px rgb(219, 219, 219);
+    -moz-box-shadow: 10px 10px 25px 0px rgb(219, 219, 219);
+    box-shadow: 10px 10px 25px 0px rgb(219, 219, 219);
+    gap: 2px;
+}
+
+.watch img {
+    width: 381px;
+    height: 270px;
+    padding: 10px 100px;
+}
+
+.watch h3 {
+    font-weight: 400;   
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+.watch p {
+    font-family: Readex Pro;
+    text-align:left;
+    font-size: 32px;
+    font-weight: 400;
+    width: 128px;
+}
+
+.horizontal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+}
+
+.iphone, .ipad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    -webkit-box-shadow: 10px 10px 25px 0px rgb(219, 219, 219);
+    -moz-box-shadow: 10px 10px 25px 0px rgb(219, 219, 219);
+    box-shadow: 10px 10px 25px 0px rgb(219, 219, 219);
+    gap: 20px;
+}
+
+.iphone > span, .ipad > span {
+    font-family: Inter;
+    font-size: 20px;
+}   
+
+.iphone > h3, .ipad > h3 {
+    font-family: Readex Pro;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.iphone {
+    padding: 140px 10px;
+}
+
+.ipad {
+    padding: 110px 10px;
+}
+
+.selled-items-text, .best-items-text, .idea-block-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.selled-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 100px;
+}
+
+.selled-items-text h1, .best-items-text h1, .idea-block-text h1 {
+    font-family: Readex Pro;
+    font-size: 48px;
+}
+
+.selled-items-text span, .best-items-text span, .idea-block-text span{
+    font-family: Readex Pro;
+    font-size: 23px;
+}
+
+.item-card h3 {
+    font-family: Readex Pro;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.item-card span {
+    color: #4B4B4B;
+    font-family: Inter;
+    font-size: 14px
+}
+
+.item-card p {
+    font-family: Inter;
+    font-size: 18px;
+}
+
+.best-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.best-card {
+    border-radius: 16px;
+    background: #F8F9FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.best-card img {
+    padding: 40px 60px;
+}
+
+.best-card button {
+    border-radius: 200px;
+    border: 1px solid #000;
+    background: transparent;
+    width: 190px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.best-card span {
+    font-size: 20px;
+    margin-top: 30px;
+    font-family: Readex Pro;
+}
+
+.best-card h3 {
+    font-size: 32px;
+    font-family: Readex Pro;
+}
+
+.idea-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 50px;
+}
+
+.right-side {
+    font-family: Inter;
+    font-size: 26px;
+    margin-top: -120px;
+}
+
+#see {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: Inter;
+    font-size: 24px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.search h1 {
+    text-align: center;
+    font-family: Readex Pro;
+    font-size: 42px;
+}
+
+.search input {
+    width: 650px;
+    height: 60px;
+    border-radius: 100px;
+    border: 1px solid #C5C5C5;
+    background: #F8F9FA;
+}
+
+.search input::placeholder {
+    font-size: 18px;
+    font-family: Inter;
+    margin-left: 30px;
+}
+
+.first-line, .second-line {
+    margin-top: 10px;
+}
+
+.first-line button, .second-line button{
+    border-radius: 200px;
+    border: 1px solid #C5C5C5;
+    background: transparent;
+    width: 190px;
+    height: 50px;
+    font-size: 17px;
+    font-family: Inter;
+}
+
+.first-line span, .second-line span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.sign-bg {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 16px;
+    background: #DCE5E2;
+    width: 935px;
+    height: 450px;
+}
+
+.sign-up input {
+    border-radius: 54px 0px 0px 54px;
+    border: 1px solid #000;
+    background: #DCE5E2;
+    width: 285px;
+    height: 50px;
+}
+
+.sign-up input::placeholder {
+    font-family: Inter;
+    font-size: 14px;
+}
+
+.sign-up button {
+    width: 115px;
+    height: 54px;
+    border-radius: 0px 200px 200px 0px;
+    border: none;
+    background: #000;
+    color: #fff;
+    font-family: Inter;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.sign-up span:last-of-type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up span:first-child {
+    font-size: 16px;
+    font-family: Inter;
+}
+
+.sign-up h1 {
+    font-family: Readex Pro;
+    font-size: 42px;
+}
+
+footer {
+    height: 378px;
+    background: #F8F9FA;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.california {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer > span {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.all-products, .company, .support, .follow-us {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.all-products h3, .company h3, .support h3, .follow-us h3{
+    font-family: Readex Pro;
+    font-size: 22px;
+}
+
+.all-products ul, .company ul, .support ul, .follow-us ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.all-products li, .company li, .support li, .follow-us li {
+    font-family: Inter;
+    font-size: 17px;
+}
+
+.california span{
+    font-size: 22px;
+    font-family: Inter;
+}
